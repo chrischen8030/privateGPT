@@ -1,4 +1,11 @@
 
+# create python env
+
+```
+python3.10 -m venv env
+source env/bin/activate
+```
+
 # install lib for m1 mac
 ```
 ARCHFLAGS="-arch arm64" pip3 install -r requirements.txt
